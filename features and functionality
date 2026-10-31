@@ -1,0 +1,40 @@
+MenoMorph AI — Changing skin. More confident choices.
+
+MenoMorph AI is a menopause-aware skincare discovery prototype that connects
+YouCam Skin Analysis with explainable product screening, routine suggestions,
+and a selected-product basket.
+
+Users upload a selfie for analysis, review available skin metrics, and explore
+a demonstration skincare catalog. MenoMorph applies transparent prototype
+rules to flag products for review and explains which ingredients matched its
+watchlist.
+
+The application groups products into morning and evening suggestions, allows
+users to add and remove catalog items, and displays the selected total. A
+wellness logger captures self-reported hot flashes, sleep quality, and
+observations alongside a snapshot of current skin metrics.
+
+The interface is designed for desktop and mobile browsers.
+
+YouCam Integration
+
+MenoMorph uses the YouCam Skin Analysis API through a server-side Next.js route.
+The application initializes an upload, sends the image to the returned upload
+destination, creates an analysis task, polls for completion, and maps the
+returned results into the dashboard.
+
+Available concern masks can also be displayed over the uploaded image to
+help explain the analysis visually.
+
+The API credential stays on the server.
+
+Prototype Scope
+
+This submission demonstrates skin analysis, explainable product screening,
+routine suggestions, and product selection. Product data and rule thresholds
+are illustrative. Virtual try-on, payments, and live retailer checkout are
+not implemented.
+
+MenoMorph is not a medical diagnostic tool. Its screening rules are not
+clinically validated and do not establish medical contraindications or
+guarantee that a product is safe for an individual.
