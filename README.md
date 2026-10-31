@@ -10,9 +10,9 @@ Built for the YouCam API Skin AI & eCommerce VTO Hackathon.
 
 ## Project Links
 
-- Live application: [ADD YOUR VERCEL URL]
-- Demo video: [ADD YOUR PUBLIC VIDEO URL]
-- Devpost submission: [ADD YOUR DEVPOST PROJECT URL]
+- Live application: https://menomorph-ai-xj5l.vercel.app/
+- Demo video: https://youtu.be/hGIuf-mXtDg
+- Devpost submission: https://devpost.com/submit-to/31400-youcam-api-skin-ai-ecommerce-vto-hackathon/manage/submissions/1269778-menomorph-ai/additional-info/edit
 
 ## The Problem
 
